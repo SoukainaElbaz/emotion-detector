@@ -27,18 +27,18 @@ It also determines the dominant emotion among these values.
 
 ## Project Structure
 
-emotion-detector/
+emotion-detector/  
 │
-├── EmotionDetection/
-│   ├── __init__.py
-│   └── emotion_detection.py
+├── EmotionDetection/  
+│   ├── __init__.py  
+│   └── emotion_detection.py  
 │
-├── templates/
-│   └── index.html
+├── templates/  
+│   └── index.html  
 │
-├── server.py
-├── test_emotion_detection.py
-└── README.md
+├── server.py  
+├── test_emotion_detection.py  
+└── README.md  
 
 ## How to Run the Application
 
@@ -59,3 +59,4 @@ Enter a sentence and click Analyze Emotion to see the detected emotions.
 ## Author
 
 Soukaina Elbaz
+
