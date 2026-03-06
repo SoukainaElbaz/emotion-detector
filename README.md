@@ -25,3 +25,41 @@ It also determines the **dominant emotion** among these values.
 - Unit testing with unittest
 
 ## Project Structure
+emotion-detector/
+│
+├── EmotionDetection/
+│ ├── init.py
+│ └── emotion_detection.py
+│
+├── templates/
+│ └── index.html
+│
+├── server.py
+├── test_emotion_detection.py
+└── README.md
+
+## How to Run the Application
+
+1. Navigate to the project directory:
+
+
+cd emotion-detector
+
+
+2. Run the Flask server:
+
+
+python server.py
+
+
+3. Open your browser and go to:
+
+
+http://127.0.0.1:5000
+
+
+4. Enter a sentence and click **Analyze Emotion** to see the detected emotions.
+
+## Author
+
+Soukaina Elbaz
